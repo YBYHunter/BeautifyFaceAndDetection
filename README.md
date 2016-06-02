@@ -1,8 +1,10 @@
 # BeautifyFaceDemo
 
-It's a simple demo of realtime face beautification based on GPUImage
+基于GPUImage的人脸磨皮、美白、提亮的美颜滤镜
 
-GPUImageBeautifyFilter is my custom beauty filter which can be used to beautify live video or static images.
+GPUImageBeautifyFilter是一个自定义的美颜滤镜，可以用来处理实时视频流或者是静态图片
+
+主要原理是双边滤波、Canny边缘检测和肤色检测
 
 # Sample Code
 You can easily beautify a live video using the following code:
