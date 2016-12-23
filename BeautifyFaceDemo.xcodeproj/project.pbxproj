@@ -141,6 +141,7 @@
 				TargetAttributes = {
 					3057CD171CD062CC007F33F6 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D882YEGCUP;
 					};
 				};
 			};
@@ -327,7 +328,9 @@
 			baseConfigurationReference = 41C83DAAE538B44A613DCD7F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D882YEGCUP;
 				INFOPLIST_FILE = BeautifyFaceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.live.beautify.BeautifyFaceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -339,7 +342,9 @@
 			baseConfigurationReference = E54852FEC0918EB2FDE0B2DC /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D882YEGCUP;
 				INFOPLIST_FILE = BeautifyFaceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.live.beautify.BeautifyFaceDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
